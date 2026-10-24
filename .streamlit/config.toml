@@ -1,0 +1,10 @@
+[client]
+# Never show Python tracebacks to end users (details still go to logs/lms.log).
+showErrorDetails = "none"
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+enableXsrfProtection = true
